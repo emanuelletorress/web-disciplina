@@ -3,20 +3,16 @@ import './App.css';
 //import HelloWorld from './components/00HelloWorld';
 //import Calculadora from './components/01Calculadora';
 //import MyProps from './components/02MyProps';
+import FunctionA from './components/03Hierarquia/FunctionA';
 
-/*
 function App() {
     return (
         <div>
-            <MyProps
-                nome="Emanuelle Torres"
-                idade={24}
-                curso="CC"
-            />
+            <FunctionA/>
         </div>
     );
 }
-*/
+
 
 // ATIVIDADE 00
 /*
@@ -42,11 +38,5 @@ function App() {
     )
 }
 */
-
-function App() {
-    return (
-        <div>Misty</div>
-    )
-}
 
 export default App;
