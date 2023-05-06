@@ -1,0 +1,6 @@
+# Create an npx App
+npx create-react-app <name-of-app>
+
+# Start the app
+npm start
+
