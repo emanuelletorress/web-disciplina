@@ -3,14 +3,20 @@ import './App.css';
 //import HelloWorld from './components/00HelloWorld';
 //import Calculadora from './components/01Calculadora';
 //import MyProps from './components/02MyProps';
-import FunctionA from './components/03Hierarquia/FunctionA';
+//import FunctionA from './components/03Hierarquia/FunctionA';
+//import * as Site from './components/04MultiploComponente';
+import { Supermercado, Legume, Fruta, Bebida } from './components/05Children';
 
 function App() {
     return (
         <div>
-            <FunctionA/>
+            <Supermercado nome="Oasis">
+                <Legume nome="Batata" />
+                <Fruta nome="Romã" />
+                <Bebida nome="Água" />
+            </Supermercado>
         </div>
-    );
+    )
 }
 
 
