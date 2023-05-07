@@ -5,8 +5,19 @@ import './App.css';
 //import MyProps from './components/02MyProps';
 //import FunctionA from './components/03Hierarquia/FunctionA';
 //import * as Site from './components/04MultiploComponente';
-import { Supermercado, Legume, Fruta, Bebida } from './components/05Children';
+//import { Supermercado, Legume, Fruta, Bebida } from './components/05Children';
+import FuncaoA from './components/06Contexto/FuncaoA';
+import FuncaoB from './components/06Contexto/FuncaoB';
 
+function App() {
+    return (
+        <div>
+            <FuncaoA />
+        </div>
+    )
+}
+// Children
+/*
 function App() {
     return (
         <div>
@@ -18,7 +29,7 @@ function App() {
         </div>
     )
 }
-
+*/
 
 // ATIVIDADE 00
 /*
@@ -40,6 +51,28 @@ function App() {
                 f="40"
                 k="50"
             />
+        </div>
+    )
+}
+*/
+
+// ATIVIDADE 01
+/*
+import Pai from './components/atividade01/01Pai';
+import * as PC from './components/atividade01/02MeuPC';
+import * as Battle from './components/atividade01/03Batalha';
+function App() {
+    return (
+        <div>
+            <Pai />
+            <hr />
+            <PC.PlacaDeVideo nome="GTX" preco="R$380,00" />
+            <PC.Memoria nome="HyperX" preco="R$259,90" />
+            <PC.PlacaMae nome="Asus Prime" preco="R$579,99" />
+            <hr />
+            <Battle.World>
+                <Battle.ArenaComChildren arena="Loonaverse" />
+            </Battle.World>
         </div>
     )
 }
