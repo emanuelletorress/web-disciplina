@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionContextA from './components/atividade02/FunctionContextA';
 //import HelloWorld from './components/00HelloWorld';
 //import Calculadora from './components/01Calculadora';
 //import MyProps from './components/02MyProps';
 //import FunctionA from './components/03Hierarquia/FunctionA';
 //import * as Site from './components/04MultiploComponente';
 //import { Supermercado, Legume, Fruta, Bebida } from './components/05Children';
-import FuncaoA from './components/06Contexto/FuncaoA';
-import FuncaoB from './components/06Contexto/FuncaoB';
+//import FuncaoA from './components/06Contexto/FuncaoA';
+//import FuncaoB from './components/06Contexto/FuncaoB';
 
+/*
 function App() {
     return (
         <div>
@@ -16,6 +18,8 @@ function App() {
         </div>
     )
 }
+*/
+
 // Children
 /*
 function App() {
@@ -77,5 +81,17 @@ function App() {
     )
 }
 */
+
+// ATIVIDADE 02
+import ComponenteAvo from './components/atividade02/02Pokemon/ComponenteAvo';
+function App() {
+    return (
+        <div>
+            <FunctionContextA />
+            <hr />
+            <ComponenteAvo />
+        </div>
+    )
+}
 
 export default App;
