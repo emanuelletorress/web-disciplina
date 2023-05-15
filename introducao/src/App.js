@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionContextA from './components/atividade02/FunctionContextA';
+//import FunctionContextA from './components/atividade02/FunctionContextA';
 //import HelloWorld from './components/00HelloWorld';
 //import Calculadora from './components/01Calculadora';
 //import MyProps from './components/02MyProps';
@@ -11,16 +11,16 @@ import FunctionContextA from './components/atividade02/FunctionContextA';
 //import FuncaoB from './components/06Contexto/FuncaoB';
 //import SaveData from './components/07Storage/FunctionLocalStorage';
 //import Pai from './components/08PaiFilho/Pai';
+//import FunctionEstados from './components/09Estados/FunctionEstados';
+import PokemonAxios from './components/10Axios/PokemonAxios';
 
-/*
 function App() {
     return (
         <div>
-            <FuncaoA />
+            <PokemonAxios/>
         </div>
     )
 }
-*/
 
 // Children
 /*
@@ -97,14 +97,5 @@ function App() {
     )
 }
 */
-
-import FunctionEstados from './components/09Estados/FunctionEstados';
-function App() {
-    return (
-        <div>
-            <FunctionEstados/>
-        </div>
-    )
-}
 
 export default App;
