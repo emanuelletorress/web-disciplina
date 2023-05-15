@@ -10,7 +10,7 @@ import FunctionContextA from './components/atividade02/FunctionContextA';
 //import FuncaoA from './components/06Contexto/FuncaoA';
 //import FuncaoB from './components/06Contexto/FuncaoB';
 //import SaveData from './components/07Storage/FunctionLocalStorage';
-import Pai from './components/08PaiFilho/Pai';
+//import Pai from './components/08PaiFilho/Pai';
 
 /*
 function App() {
@@ -98,10 +98,11 @@ function App() {
 }
 */
 
+import FunctionEstados from './components/09Estados/FunctionEstados';
 function App() {
     return (
         <div>
-            <Pai/>
+            <FunctionEstados/>
         </div>
     )
 }
