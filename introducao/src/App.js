@@ -83,6 +83,7 @@ function App() {
 */
 
 // ATIVIDADE 02
+/*
 import ComponenteAvo from './components/atividade02/02Pokemon/ComponenteAvo';
 function App() {
     return (
@@ -90,6 +91,16 @@ function App() {
             <FunctionContextA />
             <hr />
             <ComponenteAvo />
+        </div>
+    )
+}
+*/
+
+import SaveData from './components/07Storage/FunctionLocalStorage';
+function App() {
+    return (
+        <div>
+            <SaveData/>
         </div>
     )
 }
